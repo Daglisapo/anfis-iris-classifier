@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX build files (το τελικό paper/paper.pdf ανεβαίνει κανονικά)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Παράγεται από τον φάκελο paper/
+paper_overleaf.zip
+
+# PDF που κατεβαίνουν στη ρίζα (π.χ. από Overleaf) — το τελικό μπαίνει ως paper/paper.pdf
+/*.pdf
+
+# Τοπικές ρυθμίσεις Claude Code (περιέχουν προσωπικές σημειώσεις)
+CLAUDE.md
+
+# Windows
+Thumbs.db
+desktop.ini

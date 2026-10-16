@@ -1,0 +1,10 @@
+===== 3 × ANFIS one-vs-rest (16 κανόνες το καθένα) =====
+Accuracy Training :  99.04%  (104 δείγματα)
+Accuracy Checking : 100.00%  (23 δείγματα)
+Accuracy Testing  :  95.65%  (23 δείγματα)
+Confusion matrix (Testing), γραμμή = πραγματική, στήλη = πρόβλεψη:
+[[7 0 0]
+ [0 7 1]
+ [0 0 8]]
+Λάθος ταξινομήσεις (Testing):
+  δείγμα # 2: x = [6.7 3.  5.  1.7]  πραγματική = versicolor πρόβλεψη = virginica  έξοδοι [set, ver, vir] = [-0.001  0.282  0.718]
